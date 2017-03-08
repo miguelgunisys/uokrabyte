@@ -1,0 +1,35 @@
+{
+  "name": "uokrabyte",
+  "version": "1.0.0",
+  "description": "OCR library pure JavaScript",
+  "main": "index.js",
+  "bin": "bin/okrabyte",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/okrabyte"
+  },
+  "keywords": [
+    "OCR",
+    "ocrad.js",
+    "ocr"
+  ],
+  "author": "miguelunisys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/okrabyte/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/okrabyte",
+  "dependencies": {
+    "colo": "0.3.2",
+    "commander": "2.9.0",
+    "ocrad.js": "0.0.1",
+    "pngjs": "3.0.1",
+    "simple-bufferstream": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0"
+  }
+}
